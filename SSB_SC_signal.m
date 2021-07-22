@@ -52,4 +52,4 @@ plot(t,y)
 grid on;
 xlabel('Time Index')
 ylabel('Amplitude')
-title('Single Sideband Suppressed Carrier Signal (DSB-SC)')
+title('Single Sideband Suppressed Carrier Signal (SSB-SC)')
