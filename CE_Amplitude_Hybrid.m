@@ -1,7 +1,5 @@
-%% Program for generating <br />
-%% Amplitude Modulated, Demodulated, DSB-SC and SSB-SC Signals <br />
-%% Name: Rishabh Panda <br />
-%% Roll No: 1904215 <br />
+%% Program for generating
+%% Amplitude Modulated, Demodulated, DSB-SC and SSB-SC Signals
 
 clc;
 close all;
