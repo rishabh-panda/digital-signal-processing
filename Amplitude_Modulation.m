@@ -28,8 +28,8 @@ ylabel('Amplitude')
 title('Modulating Signal')
 
 % Relation between Am/Cm and fc/fa
-Ac = Am/m_critical; %CHANGE IN MODULATING INDEX
-fc = fm*15; %carrier and message signal frequency relation
+Ac = Am/m_critical; %Change in modulation index
+fc = fm*15; %Relationship equation
 Tc = 1/fc;
 
 % Carrier signal
@@ -53,7 +53,7 @@ title('Amplitude Modulated Signal')
 
 %Amplitude Demodulation
 y_demo = y_mod.*yc;
-[b,a] = butter(5,0.01);
+[b,a] = butter(5,0.01); 
 y_demo_filtered = filter(b,a,y_demo);
 subplot(4,1,4)
 plot(t,y_demo_filtered);
