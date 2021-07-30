@@ -3,7 +3,7 @@ close all;
 clear all;
 
 % Modulating index
-m_critical = 1; % Critical
+m_critical = 1; % Critical M
 m_over = 1.5; % over
 m_under = 0.5; % under
 
