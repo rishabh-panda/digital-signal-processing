@@ -3,8 +3,8 @@ close all;
 clear all;
 
 % Modulating index
-m_critical = 1; % Critical M
-m_over = 1.5; % over
+m_critical = 1; % Critical Modulation
+m_over = 1.5; % Over
 m_under = 0.5; % under
 
 % Amplitude of modulating signal
