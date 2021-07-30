@@ -24,7 +24,7 @@ subplot(5,1,2);
 plot(t,carrier_signal);
 xlabel('Time Index')
 ylabel('Amplitude')
-title('Carrier Signal (1904215)');
+title('Carrier Signal');
 
 %% Frequency Modulation
 B = 12;
