@@ -37,7 +37,7 @@ subplot(5,1,3);
 plot(t,freq_mod_signal);
 xlabel('Time Index')
 ylabel('Amplitude')
-title('Frequency Modulation (1904215)');
+title('Frequency Modulation');
 
 %% Frequency Demodulation
 %% Envelope Detector
