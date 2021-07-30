@@ -1,3 +1,4 @@
+clc;
 clear all;
 close all;
 
@@ -26,7 +27,11 @@ ylabel('Amplitude')
 title('Carrier Signal (1904215)');
 
 %% Frequency Modulation
-B = 12; %% <1 = NBFM >1 = WBFM
+B = 12;
+%% B less than 1 => NBFM; B greater than 1 => WBFM  
+%% NBFM - Narrow Band Frequency Modulation
+%% WBFM - Wide Band Frequency Modulation
+
 freq_mod_signal = carrier_amplitude*cos(2*pi*carrier_frequency*t+B*sin(2*pi*message_frequency*t));
 subplot(5,1,3);
 plot(t,freq_mod_signal);
@@ -48,10 +53,10 @@ subplot(5,1,4);
 plot(freq_demod_signal);
 xlabel('Time Index')
 ylabel('Amplitude')
-title('Frequency Demodulation (1904215)');
+title('Frequency Demodulation');
 
 subplot(5,1,5);
 plot(x);
 xlabel('Time Index')
 ylabel('Amplitude')
-title('Envelope Detector (1904215)');
+title('Envelope Detector');
