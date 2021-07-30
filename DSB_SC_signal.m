@@ -3,9 +3,9 @@ close all;
 clear all;
 
 % Modulating index
-m_critical = 1; %critical
-m_over = 1.5; %over
-m_under = 0.5; %under
+m_critical = 1; % critical 
+m_over = 1.5; % over
+m_under = 0.5; % under
 
 % Amplitude of modulating signal
 Am = 10; 
