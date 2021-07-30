@@ -29,7 +29,7 @@ ylabel('Amplitude')
 title('Modulating Signal')
 
 % Relation between Am/Cm and fc/fa
-Ac = Am/m_critical; %CHANGE IN MODULATING INDEX
+Ac = Am/m_critical; %% Altering the modulating index
 
 fc = fm*15;
 Tc = 1/fc;
