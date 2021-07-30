@@ -13,7 +13,7 @@ subplot(5,1,1);
 plot(t,message_signal);
 xlabel('Time Index')
 ylabel('Amplitude')
-title('Message Signal (1904215)');
+title('Message Signal');
 
 
 %% Carrier Signal
