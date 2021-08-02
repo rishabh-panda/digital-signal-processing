@@ -16,7 +16,7 @@ fm = 5;
 % Time period of modulating signal (s)
 Ta = 1/fm; 
 
-t = 0:Ta/1000:1; % 1000 samples
+t = 0:Ta/1000:1; % 1000 samples are considered
 
 % Modulating signal
 ym = Am*sin(2*pi*fm*t);
