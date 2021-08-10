@@ -7,7 +7,7 @@ samples = 1000;
 fm = 3; % source frequency
 Am = 1;
 Ac = 1;
-fs = 10; % s
+fs = 10; % sa
 t = linspace(0,1,samples);
 m_t = Am*cos(2*pi*fm*t);
 
