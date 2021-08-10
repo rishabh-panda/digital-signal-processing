@@ -4,8 +4,7 @@ close all;
 clear all;
 
 samples = 1000;
-fm = 3;
-%fc = 15*fm;
+fm = 3; % source frequency
 Am = 1;
 Ac = 1;
 fs = 10;
