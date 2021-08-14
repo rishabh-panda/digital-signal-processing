@@ -9,16 +9,16 @@ t=0:0.001:1;
 saw_signal=Asaw*sawtooth(2*pi*Fsampling*t); 
 subplot(4,1,1);
 plot(t,saw_signal); 
-title('Comparator Wave');
+title('Comparator Wave (1904215)');
 xlabel('Time Axis');
-ylabel('Amessageplitude');
+ylabel('Amplitude');
 
 m_t=Amessage.*sin(2*pi*Fmessage*t); 
 subplot(4,1,2);
 plot(t,m_t);
-title('Message Signal');
+title('Message Signal (1904215)');
 xlabel('Time Axis');
-ylabel('Amessageplitude');
+ylabel('Amplitude');
 
 for i=1:length(saw_signal)
 if (m_t(i)>=saw_signal(i))
@@ -29,10 +29,10 @@ end
 end
 
 subplot(4,1,3);
-plot(t,pwm,'g');
-title('PWM');
+plot(t,pwm,'r');
+title('Pulse Width Modulation (1904215)');
 xlabel('Time Axis');
-ylabel('Amessageplitude');
+ylabel('Amplitude');
 axis([0 1 0 1.1]);
 
 %demodulation
@@ -42,6 +42,6 @@ retrieved = filter(b,a,dt);
 
 subplot(4,1,4);
 plot(t, retrieved);
-title('Demodulated Signal');
+title('Demodulated Signal (1904215)');
 xlabel('Time Axis');
-ylabel('Amessageplitude');
+ylabel('Amplitude');
