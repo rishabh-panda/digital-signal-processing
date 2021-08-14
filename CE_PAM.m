@@ -1,5 +1,3 @@
-%% Pulse Amplitude Modulation
-
 clc;
 close all;
 clear all;
