@@ -26,7 +26,7 @@ t1(1,v)=t(1,i);
 v=v+1;
 end
 
-subplot(3,1,1)
+subplot(3,1,1) %first plot
 plot(t,x_t);
 title('Message Signal (1904215)');
 xlabel('Time Axis');
@@ -34,7 +34,7 @@ ylabel('Amplitude');
 hold on
 stairs(t1,mqc_t(2:201))
 
-subplot(3,1,2)
+subplot(3,1,2) %second plot
 stairs(s_t)
 title('Delta Modulated Signal (1904215)');
 xlabel('Time Axis');
@@ -57,7 +57,8 @@ end
 %Filtering through LPF
 [b,a]=butter(5,.1);
 r_t=filter(b,a,mq_t);
-subplot(3,1,3)
+
+subplot(3,1,3) %third plot
 plot(t1,r_t(2:201))
 title('Demodulated Signal (1904215)');
 xlabel('Time Axis');
