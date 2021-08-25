@@ -1,4 +1,4 @@
-%% Delta Mo
+%% Delta 
 
 clc; 
 clear all; 
