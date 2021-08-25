@@ -45,7 +45,6 @@ axis([0 200 -0.5 1.5])
 
 %Demodulation
 mq_t=0;
-
 %Convert bit stream into steps and integrate
 for i=1:length(s_t)
   if(s_t(i)==1)
@@ -55,7 +54,7 @@ else
 end
 end
 
-%Low pass filter
+%Filtering through LPF
 [b,a]=butter(5,.1);
 r_t=filter(b,a,mq_t);
 subplot(3,1,3)
