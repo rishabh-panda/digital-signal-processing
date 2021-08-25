@@ -1,4 +1,4 @@
-%% Delta Modu
+%% Delta Mo
 
 clc; 
 clear all; 
