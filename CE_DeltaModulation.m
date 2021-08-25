@@ -62,11 +62,9 @@ plot(t1,r_t(2:201))
 title('Demodulated Signal (1904215)');
 xlabel('Time Axis');
 ylabel('Amplitude');
-
-
 hold on;
-xn=0; 
 
+xn=0; 
 for i=1:l 
   if x(i)>xn(i) 
     d(i)=1; 
