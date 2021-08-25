@@ -1,4 +1,4 @@
-%% Delta Modulation
+%% Delta Modulati
 
 clc; 
 clear all; 
