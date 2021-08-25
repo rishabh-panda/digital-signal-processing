@@ -1,4 +1,4 @@
-%% Delta 
+
 
 clc; 
 clear all; 
