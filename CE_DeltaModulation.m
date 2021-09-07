@@ -19,7 +19,7 @@ for i=1:5:length(t)
   s_t(1,v)=1;
   mqc_t(1,v+1)=mqc_t(1,v)+s;
 else
-  s_t(1,v)=0;
+ s_t(1,v)=0;
   mqc_t(1,v+1)=mqc_t(1,v)-s;
 end
 t1(1,v)=t(1,i);
