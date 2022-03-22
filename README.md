@@ -23,7 +23,7 @@
 
 ![image](https://user-images.githubusercontent.com/80598737/159442671-af00add8-cfd1-49ac-80ca-4d12779a2860.png)
 
-### Audio Processing Dual Channel (Software Used: MATLAB)
+### Audio Processing Single Channel (Software Used: MATLAB)
 
 ![image](https://user-images.githubusercontent.com/80598737/159442932-916613a7-5bc8-4494-9e85-970f5531e6b6.png)
 
